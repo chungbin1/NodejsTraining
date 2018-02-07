@@ -1,0 +1,38 @@
+[
+    {
+        "username" : "Chung1",
+        "birthday" : "20/05/93",
+        "gender" : "Nam",
+        "department" : "SDC"
+    },
+    {
+        "username" : "ABC",
+        "birthday" : "20/05/93",
+        "gender" : "Nam",
+        "department" : "SDC"
+    },
+    {
+        "username" : "BD",
+        "birthday" : "20/05/93",
+        "gender" : "Nam",
+        "department" : "SDC"
+    },
+    {
+        "username" : "GD",
+        "birthday" : "20/05/93",
+        "gender" : "Nam",
+        "department" : "SDC"
+    },
+    {
+        "username" : "JH",
+        "birthday" : "20/05/93",
+        "gender" : "Nam",
+        "department" : "SDC"
+    },
+    {
+        "username" : "Bin",
+        "birthday" : "20/05/93",
+        "gender" : "Nam",
+        "department" : "SDC"
+    }
+]
