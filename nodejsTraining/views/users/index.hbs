@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>List Member</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Birthday</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Department</th>
+      </tr>
+    </thead>
+    <tbody>
+        {{#each users}}
+      <tr>
+        <td><a href="/users/{{username}}">{{name}}</a></td>
+        <td>{{username}}</td>
+        <td>{{birthday}}</td>
+        <td>{{email}}</td>
+        <td>{{sex}}</td>
+        <td>{{department}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

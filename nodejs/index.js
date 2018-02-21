@@ -9,3 +9,5 @@ var server = app.listen(3000, function() {
 module.exports = app;
 var routes = require("./routes/students");
 app.use('/', routes);
+var users = require("./routes/index");
+app.use('users', users);
